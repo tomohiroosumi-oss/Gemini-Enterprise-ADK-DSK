@@ -12,7 +12,7 @@ from google.adk.tools.bigquery.config import WriteMode
 
 #設定
 APP_NAME="bq_data_agent"
-MODEL ="gemini-2.5-flash"
+MODEL ="gemini-2.5-pro"
 # エージェントの定義
 INSTRUCTION = """
 あなたはデータアナリティクスエージェントであり、複数のBigQeuryツールにアクセスすることができます。これらのBigQueryツールを活用して、ユーザーの質問に答えてください。
